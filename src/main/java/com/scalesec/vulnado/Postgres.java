@@ -16,7 +16,7 @@ import java.util.UUID;
            //Class.forName("org.postgresql.Driver");
            // String url = new StringBuilder()
              //       .append("jdbc:postgresql://")
-                    .append(System.getenv("PGHOST"))
+             //       .append(System.getenv("PGHOST"))
             //        .append("/")
                     .append(System.getenv("PGDATABASE")).toString();
             return DriverManager.getConnection(url,
